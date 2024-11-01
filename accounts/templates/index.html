@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block start %}
+<div class="continer mt-5">
+    <div class="text-center mt-5">
+        <h1>Hey! {{request.user.username}}</h1>
+    </div>
+</div>
+{% endblock %}
